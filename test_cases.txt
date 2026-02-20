@@ -1,0 +1,26 @@
+TEST CASES FOR GRADE CALCULATOR
+-------------------------------
+
+1. Normal Input:
+   - Input: 95
+   - Expected Output: Grade A, "Outstanding"
+
+
+2. Boundary Input (Bottom):
+   - Input: 0
+   - Expected Output: Grade F, "Fail"
+  
+
+3. Boundary Input (Top):
+   - Input: 100
+   - Expected Output: Grade A, "Outstanding"
+  
+
+4. Invalid Input (Out of Range):
+   - Input: 104
+   - Expected Output: "Invalid input"
+  
+
+5. Invalid Input (Wrong Data Type):
+   - Input: "hello"
+   - Expected Output: "its not a number , Enter a valid digit"
